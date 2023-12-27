@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+body {
+    background-attachment: fixed;
+    font-size: 20px;
+    background-size: cover;
+    background-image: linear-gradient(blue, blue, darkblue, navy);
+    background-repeat: no-repeat;
+}
+
+header {
+    background-image: url('macaé.fundo3.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 15px;
+    max-height: 800px;
+    border-radius: 15px;
+    background-position: center center;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 200px;
+}
+.aitem::after {
+    content: '\00A0\1F517';
+}
+
+.aitem::before {
+    content: '\00A0\1F517';
+}
+
+.aitem:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+
+.aitem {
+    color: darkblue;
+    font-size: 20;
+    text-align: center;
+}
+
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+section > p {
+    color: darkblue;
+    font-weight: bold;
+}
+
+#rh {
+   text-align: center;
+   font-size: 7vh;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(0, 103, 205);
+}
+
+main {
+    background-color: white;
+    border-radius: 15px;
+    height: auto;
+    padding: 15px;
+    max-width: 1000px;
+    min-width: 250px;
+    margin: auto;
+    margin-top: 20px;
+}#alink {
+    color: blue;
+    text-decoration: none;
+}
+
+#alink::after {
+    content: '\00A0\1F517';
+}
+
+#alink::before {
+    content: '\00A0\1F517';
+}
+
+#alink:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+footer {
+    max-width: 1000px;
+    min-width: 250px;
+    margin: 0px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+footer > a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    color: mediumblue;
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+}
